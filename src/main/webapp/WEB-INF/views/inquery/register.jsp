@@ -18,13 +18,7 @@
 								name="course_code">
 								<option value=""></option>
 								<option value="1">부천-국비과정</option>
-								<option value="2">부천-백엔드과정</option>
-								<option value="3">부천-프론트엔드과정</option>
-								<option value="4">부천-자격증과정</option>
-								<option value="5">화곡-국비과정</option>
-								<option value="6">화곡-백엔드과정</option>
-								<option value="7">화곡-프론트엔드과정</option>
-								<option value="8">화곡-자격증과정</option>
+								<option value="10">화곡-국비과정</option>
 							</select>
 							<div class="invalid-feedback">가입 경로를 선택해주세요.</div>
 						</div>
@@ -33,7 +27,7 @@
 					<div class="row form-group">
 						<div class="col-md-4 mb-3">
 							<label for="name">이름</label> <input type="text"
-								class="form-control" id="name" name="name" placeholder=""
+								class="form-control" id="name" name="name" value="${member.NAME}"
 								value="" required>
 							<div class="invalid-feedback">이름을 입력해주세요.</div>
 						</div>
